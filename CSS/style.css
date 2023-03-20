@@ -1,19 +1,72 @@
+@font-face {
+    font-family: 'Gasalt-Regular';
+    src: url(../Fonts/Gasalt-Regular.ttf);
+}
+
 body {
-    min-height: 200vh;
+    min-height: 70vh;
     background-color: lightgray;
     align-items: center;
 }
 
 .container {
     text-align: center;
-    margin-top: 150px;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding: 20px;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    padding: 30px;
     background: white;
 }
 
 .name {
     text-align: center;
-    font-family: Gasalt;
+    font-weight: bold;
+    font-family: 'Gasalt-Regular';
+    text-transform: uppercase;
+}
+
+.profile-picture{
+    height: 190px;
+    width: 190px;
+    align-content: center;
+    border-radius: 180px;
+}
+
+.info{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.social-icon {
+    height: 20px;
+    width: 20px;
+    margin-top: 50px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+   
+}
+
+.class-button {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(66, 103, 178);
+}
+
+.class-button:hover {
+    background-color: rgb(23, 79, 151);
+    color: white;
 }
