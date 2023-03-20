@@ -1,0 +1,19 @@
+body {
+    min-height: 200vh;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    background: white;
+}
+
+.name {
+    text-align: center;
+    font-family: Gasalt;
+}
